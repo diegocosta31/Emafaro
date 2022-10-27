@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semafáro</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/scripts.js" defer></script>
+</head>
+<body>
+    <div class="box">
+        <div class="corpo">
+            <span id="vermelho-none" class="vermelho-none">V</span>
+            <span id="amarelo-none" class="amarelo-none">A</span>
+            <span id="verde-none" class="verde-none">V</span>
+        </div>
+        <div class="botao">
+            <button id="btn-vermelho" onclick="vermelho()">Vermelho</button>
+            <button id="btn-amarelo" onclick="amarelo()">Amarelo</button>
+            <button id="btn-verde" onclick="verde()">Verde</button>
+            <button id="btn-automatico" onclick="automatico()">Automático</button>
+            <button id="btn-parar" onclick="parar()">Parar</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding-top: 2em;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;      
+}
+.box{
+    background-color: #4b2c05;
+    padding: .5em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.corpo{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 2px solid rgb(46, 43, 43);
+    height: 250px;
+    justify-content: center;
+    border-radius: 50px;
+    padding: .5em;
+    background-color: rgb(15, 10, 10);
+    box-shadow: .5px .5px .5px aliceblue;
+}
+.botao{
+    margin-top: 1em;
+    border: 2px solid black ;
+    padding-bottom: .2em;
+    background-color: #79480c ;
+}
+button{
+    padding: .5em;
+    margin: .2em;
+}
+span{
+    padding: .5em ;
+    border: 3px solid rgb(80, 76, 76);
+    margin: .2em auto;
+    border-radius: 50%;
+    height: 55px;
+    width: 60px;
+}
+#vermelho{
+    background-color: red;
+    color: red;
+    transition: .35s;
+    box-shadow: 1px 1px 9px red;
+}
+#amarelo{
+    background-color: yellow;
+    color: yellow;
+    transition: .35s;
+    box-shadow: 1px 1px 9px yellow;
+}
+#verde{
+    background-color: green;
+    color: green;
+    transition: .35s;
+    box-shadow: 1px 1px 9px green;
+}
+#vermelho-none{
+    opacity: .5;
+    box-shadow: none;
+}
+#amarelo-none{
+    opacity: .5;
+    box-shadow: none;
+}
+#verde-none{
+    opacity: .5;
+    box-shadow: none;
+}
